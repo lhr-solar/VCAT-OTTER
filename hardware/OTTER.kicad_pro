@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -658,13 +658,22 @@
       {
         "filename": "OTTER.kicad_sch",
         "name": "OTTER",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "IC1,J1,U1-2",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7",
+      "OTTER"
+    ],
+    [
+      "e9d685ad-88c3-4c51-b80d-b814024edf5b",
+      "Ethernet"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
