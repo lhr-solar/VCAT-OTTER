@@ -10,9 +10,252 @@
 		(rev "A")
 	)
 	(lib_symbols)
+	(text "+ more bs to come"
+		(exclude_from_sim no)
+		(at 105.664 151.384 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b2877541-de8b-429b-b35b-01249e804855")
+	)
 	(sheet
-		(at 35.56 29.21)
-		(size 85.09 41.91)
+		(at 31.75 82.55)
+		(size 46.99 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0143922f-6120-4fc9-892f-5a0848768a0f")
+		(property "Sheetname" "ZED"
+			(at 31.75 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ZED.kicad_sch"
+			(at 31.75 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OTTER"
+				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 135.89)
+		(size 48.26 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "07ad90f3-ff08-46f7-9341-1c05faeb384e")
+		(property "Sheetname" "USB"
+			(at 31.75 135.1784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 31.75 179.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OTTER"
+				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 82.55)
+		(size 48.26 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0ade7a18-584a-40a9-ab03-6182ea3e9bd5")
+		(property "Sheetname" "HDMI"
+			(at 97.79 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HDMI.kicad_sch"
+			(at 97.79 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OTTER"
+				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 33.02)
+		(size 46.99 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0e9bc647-b318-4bc7-9032-24de44212e82")
+		(property "Sheetname" "Power"
+			(at 99.06 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 99.06 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OTTER"
+				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 33.02)
+		(size 43.18 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "99438bce-c08b-4838-8b73-6f9e601b9352")
+		(property "Sheetname" "DDRAM"
+			(at 162.56 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDRAM.kicad_sch"
+			(at 162.56 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OTTER"
+				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 33.02)
+		(size 46.99 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +270,7 @@
 		)
 		(uuid "e9d685ad-88c3-4c51-b80d-b814024edf5b")
 		(property "Sheetname" "Ethernet"
-			(at 35.56 28.4984 0)
+			(at 31.75 32.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +281,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 35.56 71.7046 0)
+			(at 31.75 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,6 +295,52 @@
 			(project "OTTER"
 				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 82.55)
+		(size 43.18 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eb093129-c761-474d-99d3-e85b871e9c74")
+		(property "Sheetname" "Periphs"
+			(at 162.56 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Periphs.kicad_sch"
+			(at 162.56 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OTTER"
+				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7"
+					(page "7")
 				)
 			)
 		)

@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b9b9c973-3178-44db-8ffd-6ffe963a1e65")
+	(paper "A4")
+	(lib_symbols)
+	(text "ZED has\nUSB-OTG		(TUSB1210BRHB)\nUSB-UART	(CY7C64225-28PVXC)"
+		(exclude_from_sim no)
+		(at 40.386 38.354 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d92ba212-c7db-4ab7-b89f-21978cf6c0b2")
+	)
+)

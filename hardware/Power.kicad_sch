@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "77e487d1-9fc1-4240-8135-ed6b493febd8")
+	(paper "A4")
+	(lib_symbols)
+	(text "Power IN: 24V\n\nPWR Rails:\n5V		- HDMI / USB\n3.3V	- PHY, HDMI, I/O\n1.8V	- ZYNQ aux/PLL, I/O\n1.5V	- DDR3\n1V		- ZYNQ PS/PL core"
+		(exclude_from_sim no)
+		(at 20.828 37.338 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "68028374-f1ec-4cde-86b8-486b16a70a36")
+	)
+	(text "I think plan would be to do:\n\n24->5 Buck\nmulti-output synch bucks for 1.0/1.8/3.3/1.5 V\ndedicated DDR termination regulator for VTT\nsmall LDO/reference for XADC or sensitive analog rails\nsupervisor/sequencer IC instead of several comparator functions, if avail."
+		(exclude_from_sim no)
+		(at 19.304 110.49 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "823d2fa4-39da-49a3-a28d-fbd48277e434")
+	)
+	(text "I also think that maybe USB-C PD input would\nbe very useful. Something like 20V PD input"
+		(exclude_from_sim no)
+		(at 19.304 153.67 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "915ab0f6-a4d1-48f9-9ce1-4e7c643b759c")
+	)
+	(text "I believe this is current Zed pwr design (double check this):\n\n12 V input\n   |\nMAX8686\n   |- 5 V intermediate rail\n   |--- MAX15021 → 1.5 V DDR\n   |--- MAX15021 → 1.0 V Zynq core\n   |--- MAX15021 → 3.3 V I/O\n   |--- MAX15053 → 1.8 V auxiliary\n   |--- MAX1983 → 1.8 V XADC\n   |--- MAX1510 → DDR termination/reference\n   |--- MAX6037 → precision XADC reference"
+		(exclude_from_sim no)
+		(at 110.236 49.276 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b8601908-d887-4879-bb1a-a39e1d844612")
+	)
+)

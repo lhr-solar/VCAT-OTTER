@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a3642db2-1ef0-4be5-996f-27a545472dd7")
+	(paper "A4")
+	(lib_symbols)
+	(text "CAN -> SPI\nn shit"
+		(exclude_from_sim no)
+		(at 129.032 96.52 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "87167769-56e5-40d5-a3d1-cf47352fc724")
+	)
+)

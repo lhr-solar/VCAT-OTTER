@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6a4302a1-a4ef-4724-8c3a-210a56385c36")
+	(paper "A4")
+	(lib_symbols)
+	(text "HDMI-IN  (CAMS)\n	ADV7611\n\nHDMI-OUT (DISP)\n	ADV7513"
+		(exclude_from_sim no)
+		(at 125.222 95.504 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6907d06d-8233-48ac-9bb8-5136fdb9b2cc")
+	)
+)
