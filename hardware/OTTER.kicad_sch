@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(text "+ more bs to come"
 		(exclude_from_sim no)
-		(at 105.664 151.384 0)
+		(at 148.844 154.178 0)
 		(effects
 			(font
 				(size 3 3)

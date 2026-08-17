@@ -18,4 +18,17 @@
 		)
 		(uuid "d92ba212-c7db-4ab7-b89f-21978cf6c0b2")
 	)
+	(text "Will probably use:\n	CP2102N-A02-GQFN20 for USB-UART\n	TUSB1210 for OTG\n	Something like CH224K for USB-PD?"
+		(exclude_from_sim no)
+		(at 40.132 64.77 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ed68e790-19de-4441-84ea-c9813900ff46")
+	)
 )

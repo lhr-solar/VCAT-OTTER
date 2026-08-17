@@ -5,6 +5,19 @@
 	(uuid "77e487d1-9fc1-4240-8135-ed6b493febd8")
 	(paper "A4")
 	(lib_symbols)
+	(text "Just off of my guess the power consumption will be max 25W??\nFor some reason the original MAX8686 is a 25A converter :skull:\n\nThis is what I'm thinking of using:\n| LM61495		24 V -> 5 V\n| TPS62816		1.0 V VCCINT + VCCBRAM\n| TPS54395 #1	1.0 V VCCPINT; 1.5 V DDR3/VCCO_DDR\n| TPS54395 #2 	1.8 V aux/PLL; 3.3 V I/O, PHY, HDMI\n| TPS51200 		DDR VTT = 0.75 V and VREF support\n\nThere may be some stuff still missing, but this was the best thing\nI could come up with for now. Looked into mutli-output PMIC as well\nbut couldnt find the perfect one, so this for now."
+		(exclude_from_sim no)
+		(at 18.796 164.084 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0249517d-8151-4dff-84ba-60fcbfbfaea9")
+	)
 	(text "Power IN: 24V\n\nPWR Rails:\n5V		- HDMI / USB\n3.3V	- PHY, HDMI, I/O\n1.8V	- ZYNQ aux/PLL, I/O\n1.5V	- DDR3\n1V		- ZYNQ PS/PL core"
 		(exclude_from_sim no)
 		(at 20.828 37.338 0)
@@ -20,7 +33,7 @@
 	)
 	(text "I think plan would be to do:\n\n24->5 Buck\nmulti-output synch bucks for 1.0/1.8/3.3/1.5 V\ndedicated DDR termination regulator for VTT\nsmall LDO/reference for XADC or sensitive analog rails\nsupervisor/sequencer IC instead of several comparator functions, if avail."
 		(exclude_from_sim no)
-		(at 19.304 110.49 0)
+		(at 19.304 98.806 0)
 		(effects
 			(font
 				(size 3 3)
@@ -33,7 +46,7 @@
 	)
 	(text "I also think that maybe USB-C PD input would\nbe very useful. Something like 20V PD input"
 		(exclude_from_sim no)
-		(at 19.304 153.67 0)
+		(at 19.558 123.444 0)
 		(effects
 			(font
 				(size 3 3)

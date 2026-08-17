@@ -5,9 +5,9 @@
 	(uuid "a3642db2-1ef0-4be5-996f-27a545472dd7")
 	(paper "A4")
 	(lib_symbols)
-	(text "CAN -> SPI\nn shit"
+	(text "CAN -> SPI\n	TCAN4550-Q1\n	Add ESD/TVS for accidental 24V on CAN line\n\n\n+ n shit\n	"
 		(exclude_from_sim no)
-		(at 129.032 96.52 0)
+		(at 86.868 85.09 0)
 		(effects
 			(font
 				(size 3 3)
