@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "XC7Z020_1CLG484C") (type "KiCad") (uri "${KIPRJMOD}/../lib/XC7Z020_1CLG484C/XC7Z020_1CLG484C.kicad_sym") (options "") (descr ""))
 	(lib (name "DP83826AIRHBR") (type "KiCad") (uri "${KIPRJMOD}/../lib/EthTransiever/DP83826AIRHBR.kicad_sym") (options "") (descr ""))
+	(lib (name "SiT8008AI-32-33E-50_000000") (type "KiCad") (uri "/Users/karthikkurapati/Desktop/VCAT-OTTER/lib/SiTime SiT8008AI-32-33E-50.000000/SiT8008AI-32-33E-50_000000.kicad_sym") (options "") (descr ""))
 )

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SiT8008AI-32-33E-50.000000
+D Low Power Programmable Oscillator, 5 x 3.2mm Package
+K
+F https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet
+$ENDCMP
+#
+#End Doc Library
