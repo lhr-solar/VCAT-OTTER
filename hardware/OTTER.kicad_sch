@@ -29,6 +29,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 35.56) (xy 151.13 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110ec6dd-6bae-4d46-953f-026766cac887")
+	)
+	(wire
+		(pts
 			(xy 78.74 43.18) (xy 95.25 43.18)
 		)
 		(stroke
@@ -69,6 +79,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 30.48) (xy 151.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48feaa1a-03b4-4882-aefd-1b20e88872db")
+	)
+	(wire
+		(pts
 			(xy 78.74 38.1) (xy 95.25 38.1)
 		)
 		(stroke
@@ -86,6 +106,16 @@
 			(type default)
 		)
 		(uuid "62573a82-ca5c-4d20-97c0-3bf1b3f7eb48")
+	)
+	(wire
+		(pts
+			(xy 140.97 27.94) (xy 151.13 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5ac2bc-1afa-4337-ab4c-7324b4cf4f25")
 	)
 	(wire
 		(pts
@@ -109,6 +139,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 38.1) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ea5cb7-df7b-4b5e-a15e-24d08c23bcd2")
+	)
+	(wire
+		(pts
 			(xy 78.74 27.94) (xy 95.25 27.94)
 		)
 		(stroke
@@ -126,6 +166,26 @@
 			(type default)
 		)
 		(uuid "cb59f603-1d2c-41ca-9b9e-4eea32354f2d")
+	)
+	(wire
+		(pts
+			(xy 140.97 40.64) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a34330-d610-4272-9f0f-97449f4e7fb2")
+	)
+	(wire
+		(pts
+			(xy 140.97 33.02) (xy 151.13 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eadb83e6-6e17-4e5e-9978-59ec2881d0ed")
 	)
 	(wire
 		(pts
@@ -276,7 +336,7 @@
 		)
 	)
 	(sheet
-		(at 161.29 31.75)
+		(at 219.71 83.82)
 		(size 46.99 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -292,7 +352,7 @@
 		)
 		(uuid "0e9bc647-b318-4bc7-9032-24de44212e82")
 		(property "Sheetname" "Power"
-			(at 161.29 31.0384 0)
+			(at 219.71 83.1084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -303,7 +363,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 161.29 71.7046 0)
+			(at 219.71 123.7746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -890,7 +950,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 82.55)
+		(at 151.13 19.05)
 		(size 43.18 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -906,7 +966,7 @@
 		)
 		(uuid "eb093129-c761-474d-99d3-e85b871e9c74")
 		(property "Sheetname" "Periphs"
-			(at 162.56 81.8384 0)
+			(at 151.13 18.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -917,7 +977,7 @@
 			)
 		)
 		(property "Sheetfile" "Periphs.kicad_sch"
-			(at 162.56 121.2346 0)
+			(at 151.13 57.7346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -925,6 +985,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CS" input
+			(at 151.13 27.94 180)
+			(uuid "5b9eb443-718a-4df9-9093-3eee5e5e6d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" output
+			(at 151.13 30.48 180)
+			(uuid "cf715a56-e5c4-49a2-a731-8209735f984d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST" input
+			(at 151.13 33.02 180)
+			(uuid "409abf7f-a7ad-42f3-b22d-21693b6651b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" bidirectional
+			(at 151.13 35.56 180)
+			(uuid "53487d0b-4301-431b-8274-a21e6c8d31b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" bidirectional
+			(at 151.13 38.1 180)
+			(uuid "f2c4cd97-bf11-4d26-8c3e-87f4eb8c8998")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" bidirectional
+			(at 151.13 40.64 180)
+			(uuid "52789da2-3042-46bc-9199-f1a3e240c0b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
