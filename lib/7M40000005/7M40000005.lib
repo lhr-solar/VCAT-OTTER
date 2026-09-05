@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 7M40000005
+#/2210556/1786979/2.50/4/4/Crystal or Oscillator
+DEF 7M40000005 Y 0 30 Y Y 1 F N
+F0 "Y" 1250 300 50 H V L CNN
+F1 "7M40000005" 1250 200 50 H V L CNN
+F2 "7M27120MAAJT" 1250 100 50 H I L CNN
+F3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" 1250 0 50 H I L CNN
+F4 "SMD Seam Sealing Crystals 3.2 x 2.5 x 0.7 mm 7M Series" 1250 -100 50 H I L CNN "Description"
+F5 "0.8" 1250 -200 50 H I L CNN "Height"
+F6 "717-7M40000005" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TXC-Corporation/7M40000005?qs=zQwgD8UkpXxLG%2FStvrkdqw%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TXC CORPORATION" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "7M40000005" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CRYSTLA 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1400 -100 200 L 50 50 0 0 P
+X CRYSTAL 3 1400 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

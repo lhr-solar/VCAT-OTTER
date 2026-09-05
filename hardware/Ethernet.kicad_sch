@@ -3406,6 +3406,10 @@
 		(uuid "15eed5fe-4f0f-4faf-9600-dd634edccd7a")
 	)
 	(no_connect
+		(at 114.3 39.37)
+		(uuid "2bf71af3-b78e-4601-89fa-60a6104e8eec")
+	)
+	(no_connect
 		(at 139.7 92.71)
 		(uuid "427163b1-fce5-4673-bc1e-2af3721078f6")
 	)
@@ -3414,8 +3418,16 @@
 		(uuid "4ba57d3b-9f0e-4da1-8162-becc4f22fdee")
 	)
 	(no_connect
+		(at 106.68 39.37)
+		(uuid "6cafaef3-d730-4e21-98e0-99e1cb33c3a0")
+	)
+	(no_connect
 		(at 106.68 125.73)
 		(uuid "8545c178-b1fe-4c05-9272-130ea2e8b795")
+	)
+	(no_connect
+		(at 111.76 39.37)
+		(uuid "b3db1171-61d2-4b4f-a97e-c09f93713bec")
 	)
 	(no_connect
 		(at 73.66 100.33)
@@ -13074,7 +13086,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "25b8b1f1-5fc2-4a2a-983f-38570b21efa4")
 		(property "Reference" "R2"
@@ -14625,7 +14637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/203/1/JXD6_0001NL.pdf"
 			(at 250.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14939,7 +14951,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d99b1217-8605-42fc-ade5-857dc195611e")
 		(property "Reference" "C19"
