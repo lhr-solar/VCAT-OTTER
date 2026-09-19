@@ -5340,7 +5340,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b5ffec7d-d85b-4873-bc49-bfb82e4f7f71")
 		(property "Reference" "#PWR033"
 			(at 105.41 48.26 0)
@@ -5354,7 +5353,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 105.41 39.37 0)
+			(at 105.41 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5495,7 +5494,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb0fb0e0-2ea3-44df-93f8-c58ab755ce5b")
 		(property "Reference" "#PWR034"
 			(at 125.73 48.26 0)
@@ -5509,7 +5507,7 @@
 			)
 		)
 		(property "Value" "+12v"
-			(at 128.27 43.1799 0)
+			(at 123.698 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6176,6 +6174,52 @@
 				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7/eb093129-c761-474d-99d3-e85b871e9c74"
 					(reference "#PWR040")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 137.16)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e26fbb6c-1f78-4611-af38-1ac79369aa46")
+		(property "Sheetname" "USBPD"
+			(at 38.1 136.4484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PD.kicad_sch"
+			(at 38.1 168.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OTTER"
+				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7/eb093129-c761-474d-99d3-e85b871e9c74"
+					(page "10")
 				)
 			)
 		)
