@@ -1927,12 +1927,6 @@
 		(uuid "02929ee3-dd6e-489d-ac99-70c8f1f291a6")
 	)
 	(junction
-		(at 115.57 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "200d9352-675e-4bc2-9dde-630bafa1fde7")
-	)
-	(junction
 		(at 255.27 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2015,6 +2009,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdb26c7c-a272-420d-a552-6b145eb60b34")
+	)
+	(no_connect
+		(at 146.05 83.82)
+		(uuid "1989f3f1-d19e-4173-afe8-cd24c4ec60a8")
 	)
 	(no_connect
 		(at 146.05 91.44)
@@ -2474,26 +2472,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 115.57 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "833ffdac-51a5-4dd2-b56f-6cbb73c170c3")
-	)
-	(wire
-		(pts
-			(xy 115.57 83.82) (xy 146.05 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860721eb-d608-41e6-bb00-b4590800f403")
-	)
-	(wire
-		(pts
 			(xy 161.29 55.88) (xy 176.53 55.88)
 		)
 		(stroke
@@ -2591,16 +2569,6 @@
 			(type default)
 		)
 		(uuid "baa29271-cc43-4b6a-ae3a-f9525fcadb01")
-	)
-	(wire
-		(pts
-			(xy 107.95 83.82) (xy 115.57 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd2b88cf-659c-4dce-b7c5-fc445f32c2cd")
 	)
 	(wire
 		(pts
@@ -2711,16 +2679,6 @@
 			(type default)
 		)
 		(uuid "d39cbe54-5414-4eb7-ab75-570ee0415274")
-	)
-	(wire
-		(pts
-			(xy 115.57 82.55) (xy 115.57 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db27c8c3-f9de-47d2-ab2e-2f2a01950a3d")
 	)
 	(wire
 		(pts
@@ -3678,17 +3636,6 @@
 		)
 		(uuid "f8118a88-c777-4152-9bd1-46434456a3e9")
 	)
-	(hierarchical_label "INT"
-		(shape output)
-		(at 107.95 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5398ecd6-e515-49e0-9872-73750e20e83b")
-	)
 	(hierarchical_label "SCLK"
 		(shape bidirectional)
 		(at 143.51 71.12 180)
@@ -4138,88 +4085,6 @@
 			(project "OTTER"
 				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7/eb093129-c761-474d-99d3-e85b871e9c74"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b83a533-2168-4c0c-91b5-09e306de84ac")
-		(property "Reference" "R11"
-			(at 118.11 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 118.11 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.792 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9b6b1f22-077f-442d-b071-44082d900d9f")
-		)
-		(pin "1"
-			(uuid "5f41fde1-2eb9-4842-8bb4-4763c029f520")
-		)
-		(instances
-			(project "OTTER"
-				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7/eb093129-c761-474d-99d3-e85b871e9c74"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5506,7 +5371,7 @@
 				)
 			)
 		)
-		(property "Value" "+12v"
+		(property "Value" "+20v"
 			(at 123.698 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5861,83 +5726,6 @@
 			(project "OTTER"
 				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7/eb093129-c761-474d-99d3-e85b871e9c74"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 115.57 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e54d9fb4-92bf-482a-a5a5-a4ca2ab44f3b")
-		(property "Reference" "#PWR037"
-			(at 115.57 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 115.57 69.596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73d8563c-fa31-49ec-b99a-692e70645342")
-		)
-		(instances
-			(project "OTTER"
-				(path "/db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7/eb093129-c761-474d-99d3-e85b871e9c74"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
