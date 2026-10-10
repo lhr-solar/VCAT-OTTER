@@ -36,6 +36,10 @@
 		(uuid "1fc29ae2-0511-4496-9a66-632d2313725d")
 	)
 	(no_connect
+		(at 97.79 73.66)
+		(uuid "20e93b9b-59dc-479d-93f7-e2cd34145b52")
+	)
+	(no_connect
 		(at 130.81 73.66)
 		(uuid "512ed4a0-bb68-4abd-84ea-1e9ff7b92644")
 	)
@@ -102,16 +106,6 @@
 			(type default)
 		)
 		(uuid "30485bcb-81d7-45b1-ab6e-5b1d16d3f92d")
-	)
-	(wire
-		(pts
-			(xy 139.7 27.94) (xy 157.48 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3767855d-2c68-4b07-9617-d4dd2af43ffa")
 	)
 	(wire
 		(pts
@@ -242,6 +236,16 @@
 			(type default)
 		)
 		(uuid "e2edf8a1-c4c7-4793-9a72-ebb7bc46a642")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 157.48 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e049df-3c10-42fe-879e-1301b0b8d0ec")
 	)
 	(image
 		(at 63.5 5.08)
@@ -2248,7 +2252,7 @@
 			)
 		)
 		(pin "JD1" output
-			(at 139.7 27.94 0)
+			(at 139.7 40.64 0)
 			(uuid "edc9de03-3ff0-40c0-ba28-6fc959fd5455")
 			(effects
 				(font
@@ -2320,6 +2324,16 @@
 		(pin "JD9" output
 			(at 93.98 31.75 180)
 			(uuid "d524801d-9995-464b-9eab-fa8fa3bf5dc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JA4" output
+			(at 97.79 73.66 270)
+			(uuid "c1667bc1-3db9-4418-b630-de45fe8a1d55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2544,7 @@
 			)
 		)
 		(pin "CS" input
-			(at 157.48 27.94 180)
+			(at 157.48 40.64 180)
 			(uuid "5b9eb443-718a-4df9-9093-3eee5e5e6d20")
 			(effects
 				(font
