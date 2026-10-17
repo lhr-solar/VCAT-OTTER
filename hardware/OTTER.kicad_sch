@@ -89,16 +89,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 35.56) (xy 157.48 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01b7677c-6d0c-40f7-9580-58c0b48a018a")
-	)
-	(wire
-		(pts
 			(xy 78.74 44.45) (xy 93.98 44.45)
 		)
 		(stroke
@@ -119,23 +109,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 93.98 49.53)
+			(xy 139.7 30.48) (xy 157.48 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "251d99d3-ef99-4cba-a213-8c87f66debfb")
-	)
-	(wire
-		(pts
-			(xy 139.7 40.64) (xy 157.48 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "587cb092-cf06-4b16-bcfc-9c23b73ff8b1")
+		(uuid "266a4393-289d-4a15-920e-133598bfd1c3")
 	)
 	(wire
 		(pts
@@ -155,7 +135,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5d599f22-7b0e-4ac9-bd82-b4e61d3afbb2")
+		(uuid "62ed357c-8ac9-47eb-854d-bcccf24aee41")
 	)
 	(wire
 		(pts
@@ -169,23 +149,33 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 40.64) (xy 157.48 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9a1258-4700-4ddd-a2ec-f81caceb74d7")
+	)
+	(wire
+		(pts
 			(xy 139.7 33.02) (xy 157.48 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79e313b8-28d3-4f3a-90c1-aa7db404e441")
+		(uuid "773aaa91-f200-499f-bb0b-b9813a12fe70")
 	)
 	(wire
 		(pts
-			(xy 139.7 30.48) (xy 157.48 30.48)
+			(xy 139.7 35.56) (xy 157.48 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8106c140-3aa2-4e54-acc3-aac8e52648ca")
+		(uuid "7d7d50cf-c0ed-4a2e-beca-5443acf90053")
 	)
 	(wire
 		(pts
@@ -199,13 +189,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 52.07) (xy 93.98 52.07)
+			(xy 139.7 38.1) (xy 157.48 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acd9cda8-51eb-4ad8-a2c8-56e12866d865")
+		(uuid "b9815392-89ee-4fde-bb56-9f1c4b32b08c")
 	)
 	(wire
 		(pts
@@ -239,13 +229,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 38.1) (xy 157.48 38.1)
+			(xy 78.74 49.53) (xy 93.98 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0cc5be7-4a95-445b-a52a-8b364ca70df8")
+		(uuid "edbe8fbb-dd29-4a36-8ab7-0702ad5be9b6")
+	)
+	(wire
+		(pts
+			(xy 78.74 52.07) (xy 93.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f542845f-ba44-41f5-8ecc-f66dcf5022e7")
 	)
 	(image
 		(at 63.5 5.08)
@@ -2172,18 +2172,8 @@
 			)
 		)
 		(pin "JC1" output
-			(at 93.98 49.53 180)
-			(uuid "8ead8bb8-9016-4dfb-a6a6-14beb1697ad7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JC10" output
 			(at 139.7 40.64 0)
-			(uuid "139406ca-1168-4496-8004-ef30952b6589")
+			(uuid "8ead8bb8-9016-4dfb-a6a6-14beb1697ad7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,28 +2181,38 @@
 				(justify right)
 			)
 		)
-		(pin "JC2" output
+		(pin "JC10" output
 			(at 93.98 52.07 180)
+			(uuid "139406ca-1168-4496-8004-ef30952b6589")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JC2" output
+			(at 139.7 30.48 0)
 			(uuid "c05a5f3c-7b1e-4172-8460-6fc64752038d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "JC3" output
-			(at 93.98 54.61 180)
+			(at 139.7 38.1 0)
 			(uuid "def9018d-1dc8-4015-9bfc-7443e61c7f5e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "JC4" output
-			(at 139.7 38.1 0)
+			(at 139.7 35.56 0)
 			(uuid "44ceebe2-7495-42b6-8b6e-8537aa7e6387")
 			(effects
 				(font
@@ -2222,7 +2222,7 @@
 			)
 		)
 		(pin "JC7" output
-			(at 139.7 35.56 0)
+			(at 139.7 33.02 0)
 			(uuid "bc8e8025-6b3c-44c2-b038-96c9ff8f1cbb")
 			(effects
 				(font
@@ -2232,23 +2232,23 @@
 			)
 		)
 		(pin "JC8" output
-			(at 139.7 33.02 0)
+			(at 93.98 54.61 180)
 			(uuid "1fb200c9-9698-4080-aad7-2c42c23bb791")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "JC9" output
-			(at 139.7 30.48 0)
+			(at 93.98 49.53 180)
 			(uuid "a3de4a82-a1d0-4ebb-96e3-cc9f499d5391")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "JD1" output

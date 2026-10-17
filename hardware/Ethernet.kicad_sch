@@ -3424,19 +3424,6 @@
 		)
 		(uuid "262d9614-abd8-4e4e-a62f-424e04b1e0d5")
 	)
-	(text "FPGA			PHY\nTXD [1:0] -------> Transmit Data\nTX_EN     -------> Transmit valid / enable\nRXD[1:0]  -------> Recieve Data\nCRS_DV    <------- recieve valid\nREF CLK   <------> Clock\nMDIO/MDC  <------> optional configuration/status"
-		(exclude_from_sim no)
-		(at 143.764 122.174 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "7cd6d3d6-7642-426d-94d6-22f50cef104c")
-	)
 	(text "Power\n"
 		(exclude_from_sim no)
 		(at 14.224 139.954 0)
