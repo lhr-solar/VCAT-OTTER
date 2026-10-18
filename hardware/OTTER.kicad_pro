@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 0.85,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2032,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -69,7 +69,18 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.254,
+          "via_gap": 0.0,
+          "width": 0.234696
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +214,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +246,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -511,6 +532,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.2347,
+        "name": "EthDiff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SingleEndedCoplanar",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.302006,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -518,7 +556,36 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "EthDiff",
+        "pattern": "/Ethernet/RD-"
+      },
+      {
+        "netclass": "EthDiff",
+        "pattern": "/Ethernet/TD-"
+      },
+      {
+        "netclass": "SingleEndedCoplanar",
+        "pattern": "/Ethernet/RMII_REF_CLK"
+      },
+      {
+        "netclass": "SingleEndedCoplanar",
+        "pattern": "/Ethernet/ETH_RXD1"
+      },
+      {
+        "netclass": "SingleEndedCoplanar",
+        "pattern": "/Ethernet/ETH_RXD0"
+      },
+      {
+        "netclass": "SingleEndedCoplanar",
+        "pattern": "/Ethernet/ETH_TXD0"
+      },
+      {
+        "netclass": "SingleEndedCoplanar",
+        "pattern": "/Ethernet/ETH_TXD1"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -661,7 +728,7 @@
         "uuid": "db2a353b-4a3a-4ce7-8df7-bc33bc3b7cc7"
       }
     ],
-    "used_designators": "C1-22,FB1-2,U1-4,F1,Y1-3,#PWR1-55,D1-2,J1-8,IC1,R1-20,JP1,#FLG1-2",
+    "used_designators": "C1-22,FB1-2,U1-4,F1,Y1-3,#PWR1-55,D1-2,J1-8,IC1,R1-21,JP1,#FLG1-2",
     "variants": []
   },
   "sheets": [
